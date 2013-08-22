@@ -31,7 +31,9 @@
       },
       "runtime" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : 0,
+            "Test::Pod" : 0,
+            "Test::Pod::Coverage" : 0
          }
       }
    },
@@ -41,5 +43,5 @@
          "url" : "https://github.com/briandfoy/modulino-demo"
       }
    },
-   "version" : "0.10_01"
+   "version" : "0.10_02"
 }
