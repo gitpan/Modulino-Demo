@@ -37,11 +37,11 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "repository" : {
          "url" : "https://github.com/briandfoy/modulino-demo"
       }
    },
-   "version" : "0.10_02"
+   "version" : "0.11"
 }
