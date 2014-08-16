@@ -9,7 +9,7 @@ use warnings;
 use subs qw();
 use vars qw($VERSION);
 
-$VERSION = '0.12';
+$VERSION = '1.001';
 
 UNITCHECK {
 sub _running_under_tester {
@@ -33,11 +33,13 @@ __PACKAGE__->$method(@ARGV) if defined $method;
 
 =head1 NAME
 
-__PACKAGE__ - A demonstration of module ideas
+Modulino::Test - A demonstration of module ideas
 
 =head1 SYNOPSIS
 
-	use __PACKAGE__;
+This module isn't meant for use. It's an example of the modulino idea
+with an additional branch to recognize test situations then run as a
+test file.
 
 =head1 DESCRIPTION
 

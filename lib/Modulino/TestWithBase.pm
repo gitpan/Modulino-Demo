@@ -5,7 +5,7 @@ use warnings;
 
 use v5.10.1;
 
-our $VERSION = '0.12';
+our $VERSION = '1.001';
 
 require Modulino::Base;
 
@@ -17,7 +17,9 @@ Modulino::TestWithBase - A demonstration of module ideas
 
 =head1 SYNOPSIS
 
-	use __PACKAGE__;
+This module isn't meant for use. It's an example of the modulino idea
+with an additional branch to recognize test situations then run as a
+test file.
 
 =head1 DESCRIPTION
 

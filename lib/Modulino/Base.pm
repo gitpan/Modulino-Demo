@@ -8,7 +8,7 @@ use v5.10.1;
 use vars qw($VERSION);
 use Carp;
 
-our $VERSION = '0.12';
+our $VERSION = '1.001';
 
 sub _running_under_tester { !! $ENV{CPANTEST} }
 
